@@ -1,8 +1,42 @@
-
-void setup(){
-  //some of your code here
+void setup()
+{
+  size(400,400);
 }
-void draw(){
-  //more of your code here
+void draw()
+{
+noStroke();
+fill(#EDE1EB);
+ellipse(200,150,150,140);
+//
+noStroke();
+triangle(150,140,220,100,120,90);
+noStroke();
+triangle(250,150,220,100,280,90);
+//
+noStroke();
+fill(#EDE1EB);
+ellipse(200,150,150,140);
+//
+fill(0,0,0);
+ellipse(165,140,20,25);
+ellipse(235,140,20,25);
+//nose
+fill(#E3C7DF);
+ellipse(200,175,55,45);
+//
+fill(0,0,0);
+ellipse(190,175,10,10);
+ellipse(210,175,10,10);
+//
+fill(#EDE1EB);
+noStroke();
+ellipse(200,237,100,70);
+//legs
+fill(#EDE1EB);
+noStroke();
+rect(170,250,15,30);
+rect(215,250,15,30);
+fill(0,0,0);
+noStroke();
+rect(170,255,15,10);
 }
-

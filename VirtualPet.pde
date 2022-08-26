@@ -1,7 +1,7 @@
 void setup()
 {
-  size(400,400);
   backround(#B0C4DE);
+  size(400,400);
 }
 void draw()
 {
@@ -9,7 +9,6 @@ void draw()
 fill(#EDE1EB);
 rect(170,250,15,30);
 rect(215,250,15,30);
-fill(0,0,0);
 //body
 fill(#EDE1EB);
 ellipse(200,237,100,70);

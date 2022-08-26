@@ -1,7 +1,7 @@
 void setup()
 {
   size(400,400);
-  background(#B0C4DE);
+  background(#F0F8FF);
 }
 void draw()
 {
@@ -32,5 +32,5 @@ ellipse(210,175,10,10);
 //grass
 noStroke();
 fill(#2E8B57);
-rect(0,270,400,160);
+rect(0,290,400,160);
 }

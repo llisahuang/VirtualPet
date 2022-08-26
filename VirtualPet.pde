@@ -9,11 +9,11 @@ void draw()
 fill(#FFCFCF);
 rect(170,250,15,30);
 rect(215,250,15,30);
-fill(0,0,0);
 //body
 fill(#FFCFCF);
 ellipse(200,237,100,70);
 //ears
+fill(#FFCFCF);
 triangle(150,140,220,100,120,90);
 triangle(250,150,220,100,280,90);
 //head

@@ -1,32 +1,39 @@
 void setup()
 {
   size(400,400);
-  backround(#B0C4DE);
+  background(#B0C4DE);
 }
 void draw()
 {
 //legs
-fill(#EDE1EB);
+fill(#FFCFCF);
 rect(170,250,15,30);
 rect(215,250,15,30);
 fill(0,0,0);
 //body
-fill(#EDE1EB);
+fill(#FFCFCF);
 ellipse(200,237,100,70);
 //ears
 triangle(150,140,220,100,120,90);
 triangle(250,150,220,100,280,90);
 //head
-fill(#EDE1EB);
+fill(#FFCFCF);
 ellipse(200,150,150,140);
 //eyes
 fill(0,0,0);
 ellipse(165,140,20,25);
 ellipse(235,140,20,25);
 //nose
-fill(#E3C7DF);
+fill(#FABFB7);
 ellipse(200,175,55,45);
 fill(0,0,0);
 ellipse(190,175,10,10);
 ellipse(210,175,10,10);
+//grass
+noStroke();
+fill(#2E8B57);
+rect(0,285,400,160);
 }
+
+
+

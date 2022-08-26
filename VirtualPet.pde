@@ -1,7 +1,6 @@
 void setup()
 {
   size(400,400);
-  backround(#B0C4DE);
 }
 void draw()
 {

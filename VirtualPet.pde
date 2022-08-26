@@ -29,4 +29,8 @@ ellipse(200,175,55,45);
 fill(0,0,0);
 ellipse(190,175,10,10);
 ellipse(210,175,10,10);
+//grass
+noStroke();
+fill(#2E8B57);
+rect(0,251,400,160);
 }

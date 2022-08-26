@@ -1,6 +1,7 @@
 void setup()
 {
   size(400,400);
+  background(#FFFFFF);
 }
 void draw()
 {
@@ -17,7 +18,7 @@ fill(0,0,0);
 ellipse(165,140,20,25);
 ellipse(235,140,20,25);
 //nose
-fill(#FFC5C3);
+fill(#F9A195);
 ellipse(200,175,55,45);
 //
 fill(0,0,0);

@@ -5,7 +5,7 @@ void setup()
 void draw()
 {
 noStroke();
-fill(#FFC0CB);
+fill(#FFCFCF);
 ellipse(200,150,150,140);
 //
 noStroke();
@@ -17,18 +17,18 @@ fill(0,0,0);
 ellipse(165,140,20,25);
 ellipse(235,140,20,25);
 //nose
-fill(#FFB6C1);
+fill(#FFC5C3);
 ellipse(200,175,55,45);
 //
 fill(0,0,0);
 ellipse(190,175,10,10);
 ellipse(210,175,10,10);
 //
-fill(#FFC0CB);
+fill(#FFCFCF);
 noStroke();
 ellipse(200,237,100,70);
 //legs
-fill(#FFC0CB);
+fill(#FFCFCF);
 noStroke();
 rect(170,250,15,30);
 rect(215,250,15,30);

@@ -1,31 +1,43 @@
 void setup()
 {
-  backround(#B0C4DE);
   size(400,400);
+  backround(#B0C4DE);
 }
 void draw()
 {
-//legs
-fill(#EDE1EB);
-rect(170,250,15,30);
-rect(215,250,15,30);
-//body
-fill(#EDE1EB);
-ellipse(200,237,100,70);
-//ears
-triangle(150,140,220,100,120,90);
-triangle(250,150,220,100,280,90);
-//head
+noStroke();
 fill(#EDE1EB);
 ellipse(200,150,150,140);
-//eyes
+//
+noStroke();
+triangle(150,140,220,100,120,90);
+noStroke();
+triangle(250,150,220,100,280,90);
+//
+noStroke();
+fill(#EDE1EB);
+ellipse(200,150,150,140);
+//
 fill(0,0,0);
 ellipse(165,140,20,25);
 ellipse(235,140,20,25);
 //nose
 fill(#E3C7DF);
 ellipse(200,175,55,45);
+//
 fill(0,0,0);
 ellipse(190,175,10,10);
 ellipse(210,175,10,10);
+//
+fill(#EDE1EB);
+noStroke();
+ellipse(200,237,100,70);
+//legs
+fill(#EDE1EB);
+noStroke();
+rect(170,250,15,30);
+rect(215,250,15,30);
+fill(0,0,0);
+noStroke();
+rect(170,255,15,10);
 }
